@@ -1,16 +1,22 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@tsconfig/node18': ^1.0.1
   kolorist: ^1.6.0
   minimist: ^1.2.7
   prompts: ^2.4.2
 
 dependencies:
+  '@tsconfig/node18': 1.0.1
   kolorist: 1.6.0
   minimist: 1.2.7
   prompts: 2.4.2
 
 packages:
+
+  /@tsconfig/node18/1.0.1:
+    resolution: {integrity: sha512-sNFeK6X2ATlhlvzyH4kKYQlfHXE2f2/wxtB9ClvYXevWpmwkUT7VaSrjIN9E76Qebz8qP5JOJJ9jD3QoD/Z9TA==}
+    dev: false
 
   /kleur/3.0.3:
     resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}
