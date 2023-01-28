@@ -1,6 +1,0 @@
-{
-  "compilerOptions": {
-    "useDefineForClassFields": false
-  },
-  "include": ["src/**/*.ts"]
-}
