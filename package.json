@@ -1,11 +1,11 @@
 {
-  "name": "create-vite-extra",
-  "version": "1.0.1",
+  "name": "create-qgp",
+  "version": "0.0.3",
   "type": "module",
   "license": "MIT",
   "author": "Bjorn Lu",
   "bin": {
-    "create-vite-extra": "index.js"
+    "create-qgp": "index.js"
   },
   "files": [
     "index.js",
@@ -21,12 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bluwy/create-vite-extra.git"
+    "url": "git+https://github.com/JLarky/create-qgp.git"
   },
   "bugs": {
-    "url": "https://github.com/bluwy/create-vite-extra/issues"
+    "url": "https://github.com/JLarky/create-qgp/issues"
   },
-  "homepage": "https://github.com/bluwy/create-vite-extra#readme",
+  "homepage": "https://github.com/JLarky/create-qgp#readme",
   "dependencies": {
     "@tsconfig/node18": "^1.0.1",
     "kolorist": "^1.6.0",
