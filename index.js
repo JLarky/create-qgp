@@ -24,7 +24,20 @@ import {
 const argv = minimist(process.argv.slice(2), { string: ['_'] })
 const cwd = process.cwd()
 
-const FRAMEWORKS = []
+const FRAMEWORKS = [
+  //
+  {
+    name: 'astro-vite-cra-ts',
+    color: lightBlue,
+    display: 'CRA + Astro + Vite + TypeScript',
+    postMessage: `
+This template is fun :) it starts as a CRA project, then adds Astro and Vite. This way you can compare how different frameworks work. Read <here> to do the same with your existing CRA project.
+
+  Run "npm run start" to start create-react-app dev server.
+  Run "npm run dev1" to start Astro dev server.
+  Run "npm run dev1" to start Vite dev server.`
+  }
+]
 
 const TEMPLATES = FRAMEWORKS.map(
   (f) => (f.variants && f.variants.map((v) => v.name)) || [f.name]
@@ -40,7 +53,7 @@ async function init() {
   let targetDir = formatTargetDir(argv._[0])
   const argTemplate = argv.template || argv.t
 
-  const defaultTargetDir = 'vite-project'
+  const defaultTargetDir = 'qgp-project'
   const getProjectName = () =>
     targetDir === '.' ? path.basename(path.resolve()) : targetDir
 
@@ -145,6 +158,8 @@ async function init() {
 
   // determine template
   let template = variant || framework?.name || argTemplate
+  const templateData = FRAMEWORKS.find((f) => f.name === template)
+
   let isReactSwc = false
   if (template.includes('-swc')) {
     isReactSwc = true
@@ -207,6 +222,9 @@ async function init() {
     if (root !== cwd) {
       console.log(`  cd ${path.relative(cwd, root)}`)
     }
+    console.log(
+      `  git init && git add . && git commit -m "Created with create-qgp -t ${template}"`
+    )
     switch (pkgManager) {
       case 'yarn':
         console.log('  yarn')
@@ -217,7 +235,7 @@ async function init() {
         console.log(`  ${pkgManager} run dev`)
         break
     }
-    console.log()
+    console.log(templateData?.postMessage || '')
   }
 }
 

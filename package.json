@@ -10,8 +10,10 @@
   "files": [
     "index.js",
     "template-*",
+    "!template-*/build",
     "!template-*/dist",
     "!template-*/node_modules",
+    "!template-*/yarn.lock",
     "!template-*/pnpm-lock.yaml",
     "!template-*/deno.lock"
   ],
