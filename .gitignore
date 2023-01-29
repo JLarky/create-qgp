@@ -1,5 +1,8 @@
 node_modules
 /template-*/dist
+/template-*/build
 /template-*/pnpm-lock.yaml
+/template-*/yarn.lock
 /template-*/deno.lock
 vite-project
+qgp-project
