@@ -36,6 +36,13 @@ This template is fun :) it starts as a CRA project, then adds Astro and Vite. Th
   Run "npm run start" to start create-react-app dev server.
   Run "npm run dev1" to start Astro dev server.
   Run "npm run dev1" to start Vite dev server.`
+  },
+  {
+    name: 'qgp-demo',
+    color: green,
+    display: 'demo based on qgp.deno.dev website',
+    postMessage: `
+This template is what I would recommend if you are starting with a new project. It is based on the qgp.deno.dev website, which is a static site generator. It is a good starting point for a blog, documentation, or a landing page.`
   }
 ]
 
