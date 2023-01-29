@@ -1,9 +1,9 @@
 {
   "name": "create-qgp",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "license": "MIT",
-  "author": "Bjorn Lu",
+  "author": "JLarky",
   "bin": {
     "create-qgp": "index.js"
   },
