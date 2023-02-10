@@ -48,8 +48,9 @@ Currently supported template presets include:
 
 | Template            | Try online                                                                                                   |
 | ------------------- | ------------------------------------------------------------------------------------------------------------ |
-| `qgp-demo`       | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/master/template-qgp-demo)    |
-| `astro-vite-cra-ts`    | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/master/template-astro-vite-cra-ts) |
+| `qgp-clean`    | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-qgp-clean) |
+| `qgp-demo`       | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-qgp-demo)    |
+| `astro-vite-cra-ts`    | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-astro-vite-cra-ts) |
 
 You can use `.` for the project name to scaffold in the current directory.
 
