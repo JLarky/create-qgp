@@ -35,7 +35,7 @@ This template is fun :) it starts as a CRA project, then adds Astro and Vite. Th
 
   Run "npm run start" to start create-react-app dev server.
   Run "npm run dev1" to start Astro dev server.
-  Run "npm run dev1" to start Vite dev server.`
+  Run "npm run dev2" to start Vite dev server.`
   },
   {
     name: 'qgp-demo',
