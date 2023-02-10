@@ -18,6 +18,9 @@ export const Layout = () => {
 					</Link>
 					<a href="https://twitter.com/JLarky">Twitter</a>
 					<a href="https://github.com/JLarky/qgp.app">GitHub</a>
+					<a href="https://agp.app/" target="_blank">
+						Docs
+					</a>
 				</nav>
 			</header>
 			<Outlet />
