@@ -6,5 +6,6 @@ node_modules
 /template-*/pnpm-lock.yaml
 /template-*/yarn.lock
 /template-*/deno.lock
+/template-*/bun.lockb
 vite-project
 qgp-project
