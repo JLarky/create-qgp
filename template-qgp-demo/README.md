@@ -25,7 +25,7 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-Check out [the website](https://qgp.deno.dev/).
+Check out [the website](https://qgp.app/).
 
 ## Credit
 
