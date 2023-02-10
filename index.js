@@ -27,9 +27,17 @@ const cwd = process.cwd()
 const FRAMEWORKS = [
   //
   {
+    name: 'qgp-demo',
+    color: lightBlue,
+    display: 'qgp-demo: Learn how QGP works (Astro blog template with SPA)',
+    postMessage: `
+This template is what I would recommend if you are starting with a new project. It is based on the qgp.app website, which is a static site generator. It is a good starting point for a blog, documentation, or a landing page.`
+  },
+  {
     name: 'astro-vite-cra-ts',
     color: lightBlue,
-    display: 'CRA + Astro + Vite + TypeScript',
+    display:
+      'astro-vite-cra-ts: impress your boss with CRA + Astro + Vite running the same SPA',
     postMessage: `
 This template is fun :) it starts as a CRA project, then adds Astro and Vite. This way you can compare how different frameworks work. Read <here> to do the same with your existing CRA project.
 
@@ -38,15 +46,8 @@ This template is fun :) it starts as a CRA project, then adds Astro and Vite. Th
   Run "npm run dev2" to start Vite dev server.`
   },
   {
-    name: 'qgp-demo',
-    color: green,
-    display: 'demo based on qgp.app website',
-    postMessage: `
-This template is what I would recommend if you are starting with a new project. It is based on the qgp.app website, which is a static site generator. It is a good starting point for a blog, documentation, or a landing page.`
-  },
-  {
     name: 'qgp-clean',
-    color: lightMagenta,
+    color: green,
     display: 'qgp-clean: bare minimum to start with React SPA',
     postMessage: `
 With this template I hope you won't have too much code to delete. Put your landing page right in the src/pages/index.astro file and put your React dashboard in src/components/App.tsx.`
@@ -54,7 +55,7 @@ With this template I hope you won't have too much code to delete. Put your landi
   {
     name: 'astro-vite-react-ts',
     color: lightMagenta,
-    display: 'astro-vite-react-ts: Vite SPA running in Astro',
+    display: 'astro-vite-react-ts: Astro added to create-vite React template',
     postMessage: `
 You like standard React template but feel like it needs a bit more? Use Vite locally and Astro in production.`
   }
