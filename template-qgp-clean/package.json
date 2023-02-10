@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "start": "astro dev",
-    "dev": "astro dev",
+    "dev": "vite --config qgp.config.mjs",
+    "dev1": "astro dev",
     "dev2": "vite --config qgp.config.mjs",
     "build": "astro build",
     "preview": "astro preview",
