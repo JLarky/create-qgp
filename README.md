@@ -55,11 +55,12 @@ deno run -A npm:create-qgp --template qgp-demo
 
 Currently supported template presets include:
 
-| Template            | Try online                                                                                                   |
-| ------------------- | ------------------------------------------------------------------------------------------------------------ |
-| `qgp-clean`    | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-qgp-clean) |
-| `qgp-demo`       | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-qgp-demo)    |
-| `astro-vite-cra-ts`    | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-astro-vite-cra-ts) |
+| Template              | Try online                                                                                                |
+| --------------------- | --------------------------------------------------------------------------------------------------------- |
+| `qgp-clean`           | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-qgp-clean)           |
+| `qgp-demo`            | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-qgp-demo)            |
+| `astro-vite-cra-ts`   | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-astro-vite-cra-ts)   |
+| `astro-vite-react-ts` | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-astro-vite-react-ts) |
 
 You can use `.` for the project name to scaffold in the current directory.
 

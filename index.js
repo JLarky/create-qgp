@@ -50,6 +50,13 @@ This template is what I would recommend if you are starting with a new project. 
     display: 'qgp-clean: bare minimum to start with React SPA',
     postMessage: `
 With this template I hope you won't have too much code to delete. Put your landing page right in the src/pages/index.astro file and put your React dashboard in src/components/App.tsx.`
+  },
+  {
+    name: 'astro-vite-react-ts',
+    color: lightMagenta,
+    display: 'astro-vite-react-ts: Vite SPA running in Astro',
+    postMessage: `
+You like standard React template but feel like it needs a bit more? Use Vite locally and Astro in production.`
   }
 ]
 

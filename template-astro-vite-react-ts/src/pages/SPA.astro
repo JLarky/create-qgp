@@ -1,0 +1,8 @@
+---
+import Layout from '../layouts/SPA-layout.astro';
+import { App } from '../qgp/react';
+---
+
+<Layout title="Vite + React + TS">
+	<App client:only="react" />
+</Layout>
