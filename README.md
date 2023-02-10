@@ -5,25 +5,31 @@
 With NPM:
 
 ```bash
-$ npm create qgp@latest
+npm create qgp@latest
 ```
 
 With Yarn:
 
 ```bash
-$ yarn create qgp
+yarn create qgp
 ```
 
 With PNPM:
 
 ```bash
-$ pnpm create qgp
+pnpm create qgp
+```
+
+With Bun:
+
+```bash
+bunx create-qgp
 ```
 
 With Deno:
 
 ```bash
-$ deno run -A npm:create-qgp
+deno run -A npm:create-qgp
 ```
 
 Then follow the prompts!
@@ -32,13 +38,16 @@ You can also directly specify the project name and the template you want to use 
 
 ```bash
 # npm
-npm create qgp@latest my-vue-app -- --template qgp-demo
+npm create qgp@latest qgp-demo -- --template qgp-demo
 
 # yarn
-yarn create qgp my-vue-app --template qgp-demo
+yarn create qgp qgp-demo --template qgp-demo
 
 # pnpm
-pnpm create qgp my-vue-app --template qgp-demo
+pnpm create qgp qgp-demo --template qgp-demo
+
+# Bun
+bunx create-qgp --template qgp-demo
 
 # Deno
 deno run -A npm:create-qgp --template qgp-demo
