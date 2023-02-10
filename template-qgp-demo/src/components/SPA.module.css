@@ -41,3 +41,11 @@ html {
 	all: unset;
 	cursor: pointer;
 }
+
+.toggleTheme {
+	position: sticky;
+	top: 0;
+	background: #ccc;
+	padding: 0.5rem;
+	border: 1px solid #999;
+}
