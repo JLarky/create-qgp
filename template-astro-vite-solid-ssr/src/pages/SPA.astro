@@ -4,5 +4,5 @@ import { App } from '../qgp/solid';
 ---
 
 <Layout title="Vite + Solid">
-	<App client:load />
+	<App client:load url={Astro.request.url} />
 </Layout>
