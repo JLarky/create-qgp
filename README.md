@@ -61,6 +61,7 @@ Currently supported template presets include:
 | `qgp-demo`            | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-qgp-demo)            |
 | `astro-vite-cra-ts`   | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-astro-vite-cra-ts)   |
 | `astro-vite-react-ts` | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-astro-vite-react-ts) |
+| `astro-vite-solid-ssr` | [StackBlitz](https://stackblitz.com/fork/github/JLarky/create-qgp/tree/main/template-astro-vite-solid-ssr) |
 
 You can use `.` for the project name to scaffold in the current directory.
 

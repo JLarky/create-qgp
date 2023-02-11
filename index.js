@@ -58,6 +58,13 @@ With this template I hope you won't have too much code to delete. Put your landi
     display: 'astro-vite-react-ts: Astro added to create-vite React template',
     postMessage: `
 You like standard React template but feel like it needs a bit more? Use Vite locally and Astro in production.`
+  },
+  {
+    name: 'astro-vite-solid-ssr',
+    color: lightMagenta,
+    display: 'astro-vite-solid-ssr: Astro added to create-vite Solid template',
+    postMessage: `
+You like standard React template but feel like it needs a bit more? Use Vite locally and Astro in production.`
   }
 ]
 
