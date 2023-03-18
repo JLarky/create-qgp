@@ -5,7 +5,7 @@
 With NPM:
 
 ```bash
-npm create qgp@latest
+npm create-qgp@latest
 ```
 
 With Yarn:
@@ -38,7 +38,7 @@ You can also directly specify the project name and the template you want to use 
 
 ```bash
 # npm
-npm create qgp@latest qgp-demo -- --template qgp-demo
+npm create-qgp@latest qgp-demo -- --template qgp-demo
 
 # yarn
 yarn create qgp qgp-demo --template qgp-demo
