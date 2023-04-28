@@ -18,7 +18,7 @@ export const Layout = () => {
 					</Link>
 					<a href="https://twitter.com/JLarky">Twitter</a>
 					<a href="https://github.com/JLarky/qgp.app">GitHub</a>
-					<a href="https://agp.app/" target="_blank">
+					<a href="https://qgp.app/" target="_blank">
 						Docs
 					</a>
 				</nav>
@@ -139,7 +139,7 @@ export const SPAIndex = () => {
 				<Link to="/SPA/counter">a classic counter</Link>. It also includes{' '}
 				<Link to="/SPA/nested">some nested routes</Link> to show that your React app doesn't have to
 				live inside one route. After that, either start building or you can check out{' '}
-				<a href="http://agp.app">the docs</a> to learn more about QGP.
+				<a href="http://qgp.app">the docs</a> to learn more about QGP.
 			</p>
 		</div>
 	);
